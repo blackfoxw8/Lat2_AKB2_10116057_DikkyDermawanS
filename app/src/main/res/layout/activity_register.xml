@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@mipmap/ic_header"
+        android:orientation="horizontal"></LinearLayout>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#949598"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username"
+        android:textColor="#949598" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="123dp"
+        android:backgroundTint="#949598"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        android:textColor="#949598" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="166dp"
+        android:backgroundTint="#949598"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Phone Number"
+        android:textColor="#949598" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="219dp"
+        android:text="     Male"
+        android:textColor="#949598"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="219dp"
+        android:layout_marginEnd="72dp"
+        android:text="     Female"
+        android:textColor="#949598"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="254dp"
+        android:drawableRight="@mipmap/ic_arrow_dropdown"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Blood Type"
+        android:textColor="#949598" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="14dp"
+        android:drawableRight="@mipmap/ic_arrow_dropdown"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Reshus "
+        android:textColor="#949598" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="298dp"
+        android:backgroundTint="#949598"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        android:textColor="#949598" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="250dp"
+        android:backgroundTint="#949598"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Retype Password"
+        android:textColor="#949598" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="218dp"
+        android:text="     Personal"
+        android:textColor="#949598"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="217dp"
+        android:text="Organization"
+        android:textColor="#949598"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="183dp"
+        android:backgroundTint="#949598"
+        android:drawableRight="@mipmap/ic_arrow_dropdown"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Job"
+        android:textColor="#949598" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="137dp"
+        android:backgroundTint="#949598"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Home Addres"
+        android:textColor="#949598" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="89dp"
+        android:backgroundTint="#949598"
+        android:drawableRight="@mipmap/ic_blood_needed_location"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Default Location"
+        android:textColor="#949598" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="55dp"
+        android:gravity="center"
+        android:text="  Agree with Terms and Condition"
+        android:textColor="#949598" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/rounded_button_2"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="#41B3E7" />
+
+</RelativeLayout>
