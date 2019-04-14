@@ -13,7 +13,8 @@ import android.widget.TextView;
  * - Membuat Halaman Awal
  * - Membuat Halaman Register
  * - Membuat Halaman Almost There
- *
+ *Aplikasi V0.2 14/04/2019 13.00
+ * - Membuat Halaman Profil
  * 
  */
 

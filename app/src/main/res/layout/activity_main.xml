@@ -85,7 +85,7 @@
         android:drawableLeft="@mipmap/ic_welcome_fb_login"
         android:drawablePadding="10dp"
         android:gravity="center"
-        android:paddingLeft="30dp"
+        android:paddingStart="30dp"
         android:text="CONNECT WITH FACEBOOK"
         android:textColor="#ffff"
         android:textSize="18dp" />
