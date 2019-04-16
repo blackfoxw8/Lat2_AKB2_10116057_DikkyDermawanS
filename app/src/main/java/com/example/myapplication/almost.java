@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * AKB2 10116057 Dikky Dermawan S
+ */
+
 public class almost extends AppCompatActivity {
 
     private Button button3;
